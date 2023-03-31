@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalPatterns\Factory\Implementation\GoldenCard.cs" />
+    <Compile Include="CreationalPatterns\Factory\Implementation\PlatiniumCard.cs" />
+    <Compile Include="CreationalPatterns\Factory\Implementation\SilverCard.cs" />
+    <Compile Include="CreationalPatterns\Factory\Interface\ICardType.cs" />
     <Compile Include="CreationalPatterns\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
