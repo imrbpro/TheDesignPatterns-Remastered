@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheDesignPatterns
+namespace TheDesignPatterns.StructuralPatterns.Adapter
 {
-    class Program
+    internal class PaymentAdapter
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
-

@@ -46,13 +46,15 @@
     <Compile Include="CreationalPatterns\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\Adapter\IPaymentProcessor.cs" />
+    <Compile Include="StructuralPatterns\Adapter\PaymentAdapter.cs" />
+    <Compile Include="StructuralPatterns\Adapter\PaymentGateway.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BehavioralPatterns\" />
-    <Folder Include="StructuralPatterns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
