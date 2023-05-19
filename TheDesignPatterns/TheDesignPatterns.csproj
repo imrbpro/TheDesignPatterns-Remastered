@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehavioralPatterns\COR\Approver.cs" />
+    <Compile Include="BehavioralPatterns\COR\Director.cs" />
+    <Compile Include="BehavioralPatterns\COR\President.cs" />
+    <Compile Include="BehavioralPatterns\COR\Purchase.cs" />
+    <Compile Include="BehavioralPatterns\COR\VicePresident.cs" />
     <Compile Include="CreationalPatterns\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,7 +56,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BehavioralPatterns\" />
     <Folder Include="StructuralPatterns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
