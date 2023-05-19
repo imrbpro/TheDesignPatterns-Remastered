@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace TheDesignPatterns.StructuralPatterns.Adapter
 {
-    internal class PaymentAdapter
+    public class PaymentAdapter : IPaymentProcessor
     {
+        private readonly PaymentGateway _jazzcash;
+        public PaymentAdapter(PaymentGateway paymentGateway) { 
+            _jazzcash = paymentGateway;
+        }
+        public void ProcessPayment(decimal amount)
+        {
+            _jazzcash.Pay(10000, "rehan", "123");
+        }
     }
 }
